@@ -9,6 +9,7 @@ import { MessageSquareIcon } from "lucide-react";
 import CreateChatButton from "./CreateChatButton";
 import UpgradeBanner from "./UpgradeBanner";
 import LanguageSelect from "./LanguageSelect";
+import { Button } from "@/components/ui/button";
 
 async function Header() {
   const session = await getServerSession(authOptions);
@@ -30,7 +31,9 @@ async function Header() {
               <CreateChatButton isLarge />
             </>
           ) : (
-            <Link href="/pricing">Pricing</Link>
+            <Button variant={"secondary"}>
+              <Link href="/pricing">Pricing</Link>
+            </Button>
           )}
 
           <DarkModeToggle />
