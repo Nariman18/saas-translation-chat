@@ -3,7 +3,7 @@ import React from "react";
 function BlobBottom() {
   return (
     <div
-      className="absolute inset-x-0 2xl:top-[1900px] xl:top-[1900px] lg:top-[1600px] md:top-[1290px] sm:top-[1250px] top-[700px] -z-10 transform-gpu overflow-hidden blur-2xl"
+      className="absolute inset-x-0 2xl:top-[1000px] xl:top-[1000px] lg:top-[950px] md:top-[750px] sm:top-[1250px] top-[450px] -z-10 transform-gpu overflow-hidden blur-2xl"
       aria-hidden="true"
     >
       <div
