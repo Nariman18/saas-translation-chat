@@ -88,6 +88,7 @@ function CreateChatButton({ isLarge }: { isLarge: boolean }) {
           title: "Error",
           description: "There was an error creating your chat!",
           variant: "destructive",
+          duration: 3000,
         });
       })
       .finally(() => {

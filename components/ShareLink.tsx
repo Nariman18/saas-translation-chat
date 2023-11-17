@@ -44,6 +44,7 @@ function ShareLink({
         description:
           "Share this to the person you want to chat with! (NOTE: They must be added to the Chat to access it!)",
         className: "bg-green-600 text-white",
+        duration: 3000,
       });
     } catch (error) {
       console.error("Failed to copy text ", error);

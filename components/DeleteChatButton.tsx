@@ -55,6 +55,7 @@ function DeleteChatButton({ chatId }: { chatId: string }) {
           title: "Error",
           description: "There was an error deleting your chat!",
           variant: "destructive",
+          duration: 3000,
         });
       })
       .finally(() => setOpen(false));

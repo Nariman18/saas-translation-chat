@@ -80,6 +80,7 @@ function InviteUser({ chatId }: { chatId: string }) {
         description:
           "You have exceeded the limit of users in a single chat for the FREE plan. Please upgrade to PRO to continue adding users to chats!",
         variant: "destructive",
+        duration: 3000,
         action: (
           <ToastAction
             altText="Upgrade"
@@ -101,6 +102,7 @@ function InviteUser({ chatId }: { chatId: string }) {
         description:
           "Please enter an email address of a registered user OR resend the invitation once they have signed up!",
         variant: "destructive",
+        duration: 3000,
       });
 
       return;
@@ -133,6 +135,7 @@ function InviteUser({ chatId }: { chatId: string }) {
             description:
               "Whoops... there was  an error adding the user to the chat!",
             variant: "destructive",
+            duration: 3000,
           });
 
           setOpen(false);
