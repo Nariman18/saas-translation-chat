@@ -49,7 +49,7 @@ function PricingCards({
 }) {
   return (
     <div>
-      <div className="mx-auto flex flex-col lg:flex-row  max-w-md gap-8 lg:max-w-4xl">
+      <div className="mx-auto flex flex-col lg:flex-row  max-w-md space-y-8 lg:max-w-4xl">
         {tiers.map((tier) => (
           <div
             key={tier.id}
