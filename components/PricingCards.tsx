@@ -31,7 +31,7 @@ const tiers = [
     features: [
       "Unlimited Messages in Chats",
       "Unlimited Participants in Chats",
-      "Unlimited Chat Rooms Tima Peyser",
+      "Unlimited Chat Rooms",
       "Supports up to 10 languages",
       "Multimedia support in chats (coming soon)",
       "1-hour, dedicated support response time",
