@@ -17,7 +17,7 @@ const ChatMembersBadge = ({ chatId }: { chatId: string }) => {
 
   return (
     !loading && (
-      <div className="p-2 border rounded-xl m-5 mt-10">
+      <div className="p-2 border rounded-xl m-5 md:mt-0 mt-10">
         <div className="flex flex-wrap justify-center md:justify-start items-center sm:space-y-0 sm:space-x-2 space-x-0 space-y-2 p-2">
           {members?.map((member) => (
             <Badge
