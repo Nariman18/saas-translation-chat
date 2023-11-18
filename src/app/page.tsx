@@ -27,7 +27,7 @@ export default async function Home() {
               </span>
             </p>
 
-            <div className="mt-10 flex items-center justify-center gap-x-6">
+            <div className="mt-10 flex items-center justify-center space-x-10">
               <GetStartedButton session={session} />
               <Link
                 href="/pricing"
