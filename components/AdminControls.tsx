@@ -3,7 +3,7 @@ import InviteUser from "./InviteUser";
 
 function AdminControls({ chatId }: { chatId: string }) {
   return (
-    <div className="flex justify-end space-x-2 m-5 mb-0">
+    <div className="flex sm:justify-end justify-center space-x-2 sm:p-5 p-3 mb-0">
       <InviteUser chatId={chatId} />
       <DeleteChatButton chatId={chatId} />
     </div>
