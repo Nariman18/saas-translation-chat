@@ -178,7 +178,7 @@ function InviteUser({ chatId }: { chatId: string }) {
                   render={({ field }) => (
                     <FormItem>
                       <FormControl>
-                        <Input placeholder="john@doe.com" {...field} />
+                        <Input placeholder="MelikPeyser@doe.com" {...field} />
                       </FormControl>
                     </FormItem>
                   )}

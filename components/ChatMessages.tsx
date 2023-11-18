@@ -43,7 +43,9 @@ const ChatMessages = ({ chatId, initialMessages, session }: Props) => {
             </span>{" "}
             below to get started!
           </h2>
-          <p>The AI will auto-detect & translate it all for you</p>
+          <p>
+            The AI will auto-detect & translate it all for you and Java Peyser!
+          </p>
         </div>
       )}
 
