@@ -18,7 +18,7 @@ const tiers = [
       "20 messages Chat Limit in Chats",
       "2 participant limit in Chat",
       "3 Chat Rooms limit",
-      "Supports 2 languages",
+      "Supports 2 languages (English and Azerbaijani)",
       "48-hour support response time",
     ],
   },
