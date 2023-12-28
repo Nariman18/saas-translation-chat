@@ -48,10 +48,6 @@ function UserButton({ session }: { session: Session | null }) {
                 <StarIcon fill="#E935C1" />
                 <p>PRO</p>
               </DropdownMenuLabel>
-
-              <DropdownMenuItem className="flex justify-center cursor-pointer">
-                <p>Manage</p>
-              </DropdownMenuItem>
             </>
           )}
 
