@@ -8,10 +8,10 @@ export type LanguagesSupported =
   | "ru"
   | "de"
   | "ja"
-  | "th"
+  | "pl"
   | "es"
   | "kk"
-  | "ar";
+  | "sr";
 
 export const LanguagesSupportedMap: Record<LanguagesSupported, string> = {
   en: "English",
@@ -20,10 +20,10 @@ export const LanguagesSupportedMap: Record<LanguagesSupported, string> = {
   ru: "Russian",
   de: "German",
   ja: "Japanese",
-  th: "Thai",
+  pl: "Polish",
   es: "Spanish",
   kk: "Kazakh",
-  ar: "Arabic",
+  sr: "Serbian",
 };
 
 const LANGUAGES_IN_FREE = 2;

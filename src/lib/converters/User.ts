@@ -14,7 +14,7 @@ const userConverter: FirestoreDataConverter<User> = {
   toFirestore: function (customer: User): DocumentData {
     return {
       email: customer.email,
-      image: customer.email,
+      image: customer.image,
       name: customer.name,
     };
   },

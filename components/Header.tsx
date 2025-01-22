@@ -42,7 +42,7 @@ async function Header() {
       </nav>
 
       {/* Upgrade Banner */}
-      <UpgradeBanner />
+      <UpgradeBanner session={session} />
     </header>
   );
 }
